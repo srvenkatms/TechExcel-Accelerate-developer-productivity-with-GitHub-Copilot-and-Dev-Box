@@ -6,7 +6,8 @@ namespace RazorPagesTestSample.Data
     public class Message
     {
         public int Id { get; set; }
-
+        
+        [Required]
         /// <summary>
         /// Gets or sets the message text.
         /// </summary>
